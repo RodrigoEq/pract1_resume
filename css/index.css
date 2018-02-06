@@ -1,0 +1,54 @@
+/*-----------------General----------------*/
+ul {
+    list-style-type: none;
+}
+/*------------------Adside----------------*/
+aside {
+    background: #647087;
+}
+aside * {
+    color: white
+}
+aside h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+#profile_pic01 img{
+    border-radius: 50%;
+}
+/*-----------------Main------------*/
+.hero {
+    background-color: #F7DDC3;
+}
+.hero h2{
+    color: white;
+    border-top: 2px solid white;
+}
+.hero {
+    box-shadow: 3px 3px 30px 5px #647087 inset;
+}
+
+
+/*
+* {
+    color: blue;
+}
+p {
+    color: red;
+}
+.bonito{
+    background color: lightblue;
+}
+ul {
+    list-style-type: none;
+}
+article {
+    list-style-type:
+}
+#profile_pic01 img{
+    border-radius: 50%;
+}
+*/
