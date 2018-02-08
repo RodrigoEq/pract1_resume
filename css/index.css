@@ -1,3 +1,44 @@
+
+.main_Container{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:
+}
+.references{
+    display: flex;
+    flex-wrap: wrap;
+}
+.references article{
+    width: 50%
+}
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+dt,
+dd{
+    line-height: 1.5em;
+    border-top: 1px solid white;
+    flex-basis: 40%;
+    margin: 0;
+}
+dt:last-of-type,
+dd:last-of-type{
+    line-height: 1.5em;
+    border-bottom: 1px solid white;
+}
+h1,
+h2{
+    text-transform: uppercase;
+}
+dt{
+    font-size: solid;;
+}
+.clear{
+    clear: both;
+}
 /*-----------------General----------------*/
 ul {
     list-style-type: none;
@@ -5,6 +46,8 @@ ul {
 /*------------------Adside----------------*/
 aside {
     background: #647087;
+    flex-basisx: 250%;
+    margin-right: 3%;
 }
 aside * {
     color: white
@@ -20,6 +63,9 @@ aside section h2:first-child{
     border-radius: 50%;
 }
 /*-----------------Main------------*/
+main{
+
+}
 main section > h2{
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -27,15 +73,22 @@ main section > h2{
 .hero {
     background-color: #F7DDC3;
     box-shadow: 3px 3px 30px 5px #647087 inset;
+    padding: 15% 0;
+    text-align: center;
+}
+.about_me p{
+    line-height: 1.5em;
+    padding: 5px;
+    background-color: #EDC0AF
 }
 .hero h2{
     color: white;
     border-top: 2px solid white;
     text-transform: none;
-    letter-spacing: none;
+    letter-spacing: 10px;
 }
-.about_me {
-    background-color: #EDC0AF
+.hero h1{
+    letter-spacing: 10px;
 }
 .about_me h2 {
     background-color: white;
@@ -47,32 +100,19 @@ article h4{
 article ul{
     list-style-type: square;
 }
+.fb::before{
+    content: "\f02D";
+    font-family: "Font awesome 5 Free";
+    font-weight: 900;
+}
 
-.aside{
-    display: flex;
-    align-content: flex-start;
+.social_item{
+    padding: 15px;
 }
-.main{
-    display: flex;
-    align-content: flex-end;
+meter{
+    display: block;
+    width: 80%;
 }
-/*
-* {
-    color: blue;
+meter::webkit-meter-optimum-value{
+    background-color: red;
 }
-p {
-    color: red;
-}
-.bonito{
-    background color: lightblue;
-}
-ul {
-    list-style-type: none;
-}
-article {
-    list-style-type:
-}
-#profile_pic01 img{
-    border-radius: 50%;
-}
-*/
