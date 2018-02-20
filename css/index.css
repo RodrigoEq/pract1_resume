@@ -46,7 +46,7 @@ ul {
 /*------------------Adside----------------*/
 aside {
     background: #647087;
-    flex-basisx: 250%;
+    flex-basis: 25%;
     margin-right: 3%;
 }
 aside * {
@@ -115,4 +115,21 @@ meter{
 }
 meter::webkit-meter-optimum-value{
     background-color: red;
+}
+
+@media (max-width: 400px) {
+    .main_Container {
+        width: 400px;
+        flex-wrap: wrap;
+        font-size: 1.2em;
+    }
+    aside{
+        width: 400px;
+    }
+    aside,
+    main {
+        width: 400px;
+        flex-basis: 100%;
+    }
+
 }
